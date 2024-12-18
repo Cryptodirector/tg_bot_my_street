@@ -13,12 +13,12 @@ from app.keyboards.users import KeyboardsUsers
 logging.basicConfig(level=logging.INFO)
 
 bot = Bot(
-    token="7656161088:AAGHJoxI4ZHu64eZY0slSwO0r7r_h9ThmnQ"
+    token=""
 )
 dp = Dispatcher()
 users = Users()
 keyboards_users = KeyboardsUsers()
-CHANNEL_ID = "@my_street_tsk"
+CHANNEL_ID = ""
 
 
 async def is_user_subscribed(
